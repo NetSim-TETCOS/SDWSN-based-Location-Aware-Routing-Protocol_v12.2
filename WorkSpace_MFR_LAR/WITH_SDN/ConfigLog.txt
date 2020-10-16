@@ -1,0 +1,3500 @@
+Config file parser started...
+Parsing EXPERIMENNT_INFORMATION...
+Parsing GUI_INFORMATION...
+GUI_INFORMATION parsing completed...
+Parsing NETWORK_CONFIGURATION...
+Parsing DEVICE_CONFIGURATION...
+Device Count = 13
+DEVICE Parsing started...
+Device Name = SINK
+DEVICE_ID=1
+Interface Count=1
+Device Type=SINKNODE
+WIRESHARK_OPTION=Disable
+POS_3D Parsing started...
+X-Pos = 76.7
+Y-Pos = 76.71
+Z-Pos = 0
+MOBILITY parsing started...
+Calling Mobility protocol for configuration...
+MODEL=NO_MOBILITY
+Mobility protocol configuration completed.
+MOBILITY parsing end...
+
+POS_3D Parsing end...
+
+INTERFACE parsing started...
+Interface Id = 1
+Interface Type = ZIGBEE
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+NETWORK_PROTOCOL parsing started...
+Network Protocol = IPV4
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+IP_ADDRESS=11.1.1.1
+SUBNET_MASK=255.255.0.0
+DEFAULT_GATEWAY=
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+NETWORK_PROTOCOL parsing end...
+
+Protocol parsing started...
+Protocol Name = ARP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling ARP protocol for configuration...
+ARP_RETRY_INTERVAL=10
+ARP_RETRY_LIMIT=3
+ARP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = DATALINK_LAYER
+MAC_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+MAC_ADDRESS=AF1D00000101
+ACK_REQUEST=Enable
+BEACON_MODE=Disable
+MAX_BE=5
+MAX_CSMA_BACKOFF=4
+MAX_FRAME_RETRIES=3
+MIN_BE=3
+MIN_CAP_LENGTH_SYMBOLS=440
+UNIT_BACKOFF_PERIOD_SYMBOLS=20
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+MAc_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = PHYSICAL_LAYER
+PHYSICAL_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+ANTENNA_HEIGHT=1
+ANTENNA_GAIN=0
+D0=8
+CCA_MODE=CARRIER_SENSE_ONLY
+CHIPRATE_MCPS=2000
+DATARATE_KBPS=250
+EDTHRESHOLD_DBM=-95
+FREQUENCYBAND_MHZ=2400
+MIN_LIFS_PERIOD_SYMBOLS=40
+MIN_SIFS_PERIOD_SYMBOLS=12
+MODULATION_TECHNIQUE=O-QPSK
+PHY_SHRDURATION=3
+PHY_SYMBOLPEROCTET=5.3
+RECEIVER_SENSITIVITY_DBM=-85
+TURNAROUNDTIME_SYMBOLS=12
+UNIT_BACKOFFTIME_SYMBOLS=20
+TX_POWER=1
+SOURCE=MAIN_LINE
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PHYSICAL_LAYER parsing end...
+
+LAYER parsing end...
+
+INTERFACE parsing end...
+
+LAYER parsing started...
+Layer Type = APPLICATION_LAYER
+APPLICATION_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = OPEN_FLOW
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling OPEN_FLOW protocol for configuration...
+OPEN_FLOW_ENABLE=TRUE
+SDN_CONTROLLER=TRUE
+OPEN_FLOW protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+APPLICATION_LAYER parsing end...
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = TRANSPORT_LAYER
+TRANSPORT_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = TCP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling TCP protocol for configuration...
+INITIAL_SSTHRESH=65535
+TCP_MSS=1460
+MAX_SYN_RETRIES=5
+CONGESTION_ALGORITHM=NEW_RENO
+ACKNOWLEDGEMENT_TYPE=Undelayed
+TIME_WAIT_TIMER=120
+SACK_PERMITTED=FALSE
+WINDOW_SCALING=FALSE
+TIMESTAMP_OPTION=FALSE
+CONGESTION_PLOT=FALSE
+TCP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PROTOCOL parsing started...
+Protocol Name = UDP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling UDP protocol for configuration...
+UDP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+TRANSPORT_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+Protocol parsing started...
+Protocol Name = IPV4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+STATIC_IP_ROUTE=
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+ROUTING_PROTOCOL parsing started...
+Routing Protocol Name = DSR
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling DSR protocol for configuration...
+ACK_TYPE=LINK_LAYER_ACK
+DSR protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+ROUTING_PROTOCOL parsing end...
+
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+DEVICE parsing end...
+
+DEVICE Parsing started...
+Device Name = SENSOR_2
+DEVICE_ID=2
+Interface Count=1
+Device Type=SENSOR
+WIRESHARK_OPTION=Disable
+POS_3D Parsing started...
+X-Pos = 15.4
+Y-Pos = 158.73
+Z-Pos = 0
+MOBILITY parsing started...
+Calling Mobility protocol for configuration...
+MODEL=NO_MOBILITY
+Mobility protocol configuration completed.
+MOBILITY parsing end...
+
+POS_3D Parsing end...
+
+INTERFACE parsing started...
+Interface Id = 1
+Interface Type = ZIGBEE
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+NETWORK_PROTOCOL parsing started...
+Network Protocol = IPV4
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+IP_ADDRESS=11.1.1.2
+SUBNET_MASK=255.255.0.0
+DEFAULT_GATEWAY=11.1.1.1
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+NETWORK_PROTOCOL parsing end...
+
+Protocol parsing started...
+Protocol Name = ARP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling ARP protocol for configuration...
+ARP_RETRY_INTERVAL=10
+ARP_RETRY_LIMIT=3
+ARP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = DATALINK_LAYER
+MAC_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+MAC_ADDRESS=AF1D00000201
+ACK_REQUEST=Enable
+MAX_BE=5
+MAX_CSMA_BACKOFF=4
+MAX_FRAME_RETRIES=3
+MIN_BE=3
+MIN_CAP_LENGTH_SYMBOLS=440
+UNIT_BACKOFF_PERIOD_SYMBOLS=20
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+MAc_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = PHYSICAL_LAYER
+PHYSICAL_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+ANTENNA_HEIGHT=1
+ANTENNA_GAIN=0
+D0=8
+CCA_MODE=CARRIER_SENSE_ONLY
+CHIPRATE_MCPS=2000
+DATARATE_KBPS=250
+EDTHRESHOLD_DBM=-95
+FREQUENCYBAND_MHZ=2400
+MIN_LIFS_PERIOD_SYMBOLS=40
+MIN_SIFS_PERIOD_SYMBOLS=12
+MODULATION_TECHNIQUE=O-QPSK
+PHY_SHRDURATION=3
+PHY_SYMBOLPEROCTET=5.3
+RECEIVER_SENSITIVITY_DBM=-85
+TURNAROUNDTIME_SYMBOLS=12
+UNIT_BACKOFFTIME_SYMBOLS=20
+TX_POWER=1
+SOURCE=Battery
+RECHARGING_CURRENT_MA=0.4
+VOLTAGE_V=3.6
+INITIAL_ENERGY=0.5
+TRANSMITTING_CURRENT_MA=8.8
+RECEIVING_CURRENT_MA=9.6
+IDLEMODE_CURRENT_MA=3.3
+SLEEPMODE_CURRENT_MA=0.237
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PHYSICAL_LAYER parsing end...
+
+LAYER parsing end...
+
+INTERFACE parsing end...
+
+LAYER parsing started...
+Layer Type = APPLICATION_LAYER
+APPLICATION_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = OPEN_FLOW
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling OPEN_FLOW protocol for configuration...
+OPEN_FLOW_ENABLE=TRUE
+SDN_CONTROLLER=FALSE
+SDN_CONTROLLER_DEVICE=SINK
+OPEN_FLOW protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+APPLICATION_LAYER parsing end...
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = TRANSPORT_LAYER
+TRANSPORT_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = TCP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling TCP protocol for configuration...
+INITIAL_SSTHRESH=65535
+TCP_MSS=1460
+MAX_SYN_RETRIES=5
+CONGESTION_ALGORITHM=NEW_RENO
+ACKNOWLEDGEMENT_TYPE=Undelayed
+TIME_WAIT_TIMER=120
+SACK_PERMITTED=FALSE
+WINDOW_SCALING=FALSE
+TIMESTAMP_OPTION=FALSE
+CONGESTION_PLOT=FALSE
+TCP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PROTOCOL parsing started...
+Protocol Name = UDP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling UDP protocol for configuration...
+UDP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+TRANSPORT_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+Protocol parsing started...
+Protocol Name = IPV4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+STATIC_IP_ROUTE=
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+ROUTING_PROTOCOL parsing started...
+Routing Protocol Name = DSR
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling DSR protocol for configuration...
+ACK_TYPE=LINK_LAYER_ACK
+DSR protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+ROUTING_PROTOCOL parsing end...
+
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+DEVICE parsing end...
+
+DEVICE Parsing started...
+Device Name = SENSOR_3
+DEVICE_ID=3
+Interface Count=1
+Device Type=SENSOR
+WIRESHARK_OPTION=Disable
+POS_3D Parsing started...
+X-Pos = 255.32
+Y-Pos = 56.27
+Z-Pos = 0
+MOBILITY parsing started...
+Calling Mobility protocol for configuration...
+MODEL=NO_MOBILITY
+Mobility protocol configuration completed.
+MOBILITY parsing end...
+
+POS_3D Parsing end...
+
+INTERFACE parsing started...
+Interface Id = 1
+Interface Type = ZIGBEE
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+NETWORK_PROTOCOL parsing started...
+Network Protocol = IPV4
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+IP_ADDRESS=11.1.1.3
+SUBNET_MASK=255.255.0.0
+DEFAULT_GATEWAY=11.1.1.1
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+NETWORK_PROTOCOL parsing end...
+
+Protocol parsing started...
+Protocol Name = ARP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling ARP protocol for configuration...
+ARP_RETRY_INTERVAL=10
+ARP_RETRY_LIMIT=3
+ARP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = DATALINK_LAYER
+MAC_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+MAC_ADDRESS=AF1D00000301
+ACK_REQUEST=Enable
+MAX_BE=5
+MAX_CSMA_BACKOFF=4
+MAX_FRAME_RETRIES=3
+MIN_BE=3
+MIN_CAP_LENGTH_SYMBOLS=440
+UNIT_BACKOFF_PERIOD_SYMBOLS=20
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+MAc_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = PHYSICAL_LAYER
+PHYSICAL_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+ANTENNA_HEIGHT=1
+ANTENNA_GAIN=0
+D0=8
+CCA_MODE=CARRIER_SENSE_ONLY
+CHIPRATE_MCPS=2000
+DATARATE_KBPS=250
+EDTHRESHOLD_DBM=-95
+FREQUENCYBAND_MHZ=2400
+MIN_LIFS_PERIOD_SYMBOLS=40
+MIN_SIFS_PERIOD_SYMBOLS=12
+MODULATION_TECHNIQUE=O-QPSK
+PHY_SHRDURATION=3
+PHY_SYMBOLPEROCTET=5.3
+RECEIVER_SENSITIVITY_DBM=-85
+TURNAROUNDTIME_SYMBOLS=12
+UNIT_BACKOFFTIME_SYMBOLS=20
+TX_POWER=1
+SOURCE=Battery
+RECHARGING_CURRENT_MA=0.4
+VOLTAGE_V=3.6
+INITIAL_ENERGY=0.5
+TRANSMITTING_CURRENT_MA=8.8
+RECEIVING_CURRENT_MA=9.6
+IDLEMODE_CURRENT_MA=3.3
+SLEEPMODE_CURRENT_MA=0.237
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PHYSICAL_LAYER parsing end...
+
+LAYER parsing end...
+
+INTERFACE parsing end...
+
+LAYER parsing started...
+Layer Type = APPLICATION_LAYER
+APPLICATION_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = OPEN_FLOW
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling OPEN_FLOW protocol for configuration...
+OPEN_FLOW_ENABLE=TRUE
+SDN_CONTROLLER=FALSE
+SDN_CONTROLLER_DEVICE=SINK
+OPEN_FLOW protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+APPLICATION_LAYER parsing end...
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = TRANSPORT_LAYER
+TRANSPORT_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = TCP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling TCP protocol for configuration...
+INITIAL_SSTHRESH=65535
+TCP_MSS=1460
+MAX_SYN_RETRIES=5
+CONGESTION_ALGORITHM=NEW_RENO
+ACKNOWLEDGEMENT_TYPE=Undelayed
+TIME_WAIT_TIMER=120
+SACK_PERMITTED=FALSE
+WINDOW_SCALING=FALSE
+TIMESTAMP_OPTION=FALSE
+CONGESTION_PLOT=FALSE
+TCP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PROTOCOL parsing started...
+Protocol Name = UDP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling UDP protocol for configuration...
+UDP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+TRANSPORT_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+Protocol parsing started...
+Protocol Name = IPV4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+STATIC_IP_ROUTE=
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+ROUTING_PROTOCOL parsing started...
+Routing Protocol Name = DSR
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling DSR protocol for configuration...
+ACK_TYPE=LINK_LAYER_ACK
+DSR protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+ROUTING_PROTOCOL parsing end...
+
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+DEVICE parsing end...
+
+DEVICE Parsing started...
+Device Name = SENSOR_4
+DEVICE_ID=4
+Interface Count=1
+Device Type=SENSOR
+WIRESHARK_OPTION=Disable
+POS_3D Parsing started...
+X-Pos = 29.960000000000004
+Y-Pos = 49.54999999999999
+Z-Pos = 0
+MOBILITY parsing started...
+Calling Mobility protocol for configuration...
+MODEL=NO_MOBILITY
+Mobility protocol configuration completed.
+MOBILITY parsing end...
+
+POS_3D Parsing end...
+
+INTERFACE parsing started...
+Interface Id = 1
+Interface Type = ZIGBEE
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+NETWORK_PROTOCOL parsing started...
+Network Protocol = IPV4
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+IP_ADDRESS=11.1.1.4
+SUBNET_MASK=255.255.0.0
+DEFAULT_GATEWAY=11.1.1.1
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+NETWORK_PROTOCOL parsing end...
+
+Protocol parsing started...
+Protocol Name = ARP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling ARP protocol for configuration...
+ARP_RETRY_INTERVAL=10
+ARP_RETRY_LIMIT=3
+ARP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = DATALINK_LAYER
+MAC_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+MAC_ADDRESS=AF1D00000401
+ACK_REQUEST=Enable
+MAX_BE=5
+MAX_CSMA_BACKOFF=4
+MAX_FRAME_RETRIES=3
+MIN_BE=3
+MIN_CAP_LENGTH_SYMBOLS=440
+UNIT_BACKOFF_PERIOD_SYMBOLS=20
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+MAc_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = PHYSICAL_LAYER
+PHYSICAL_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+ANTENNA_HEIGHT=1
+ANTENNA_GAIN=0
+D0=8
+CCA_MODE=CARRIER_SENSE_ONLY
+CHIPRATE_MCPS=2000
+DATARATE_KBPS=250
+EDTHRESHOLD_DBM=-95
+FREQUENCYBAND_MHZ=2400
+MIN_LIFS_PERIOD_SYMBOLS=40
+MIN_SIFS_PERIOD_SYMBOLS=12
+MODULATION_TECHNIQUE=O-QPSK
+PHY_SHRDURATION=3
+PHY_SYMBOLPEROCTET=5.3
+RECEIVER_SENSITIVITY_DBM=-85
+TURNAROUNDTIME_SYMBOLS=12
+UNIT_BACKOFFTIME_SYMBOLS=20
+TX_POWER=1
+SOURCE=Battery
+RECHARGING_CURRENT_MA=0.4
+VOLTAGE_V=3.6
+INITIAL_ENERGY=0.5
+TRANSMITTING_CURRENT_MA=8.8
+RECEIVING_CURRENT_MA=9.6
+IDLEMODE_CURRENT_MA=3.3
+SLEEPMODE_CURRENT_MA=0.237
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PHYSICAL_LAYER parsing end...
+
+LAYER parsing end...
+
+INTERFACE parsing end...
+
+LAYER parsing started...
+Layer Type = APPLICATION_LAYER
+APPLICATION_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = OPEN_FLOW
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling OPEN_FLOW protocol for configuration...
+OPEN_FLOW_ENABLE=TRUE
+SDN_CONTROLLER=FALSE
+SDN_CONTROLLER_DEVICE=SINK
+OPEN_FLOW protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+APPLICATION_LAYER parsing end...
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = TRANSPORT_LAYER
+TRANSPORT_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = TCP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling TCP protocol for configuration...
+INITIAL_SSTHRESH=65535
+TCP_MSS=1460
+MAX_SYN_RETRIES=5
+CONGESTION_ALGORITHM=NEW_RENO
+ACKNOWLEDGEMENT_TYPE=Undelayed
+TIME_WAIT_TIMER=120
+SACK_PERMITTED=FALSE
+WINDOW_SCALING=FALSE
+TIMESTAMP_OPTION=FALSE
+CONGESTION_PLOT=FALSE
+TCP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PROTOCOL parsing started...
+Protocol Name = UDP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling UDP protocol for configuration...
+UDP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+TRANSPORT_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+Protocol parsing started...
+Protocol Name = IPV4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+STATIC_IP_ROUTE=
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+ROUTING_PROTOCOL parsing started...
+Routing Protocol Name = DSR
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling DSR protocol for configuration...
+ACK_TYPE=LINK_LAYER_ACK
+DSR protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+ROUTING_PROTOCOL parsing end...
+
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+DEVICE parsing end...
+
+DEVICE Parsing started...
+Device Name = SENSOR_5
+DEVICE_ID=5
+Interface Count=1
+Device Type=SENSOR
+WIRESHARK_OPTION=Disable
+POS_3D Parsing started...
+X-Pos = 102.46601343784994
+Y-Pos = 186.44223964165732
+Z-Pos = 0
+MOBILITY parsing started...
+Calling Mobility protocol for configuration...
+MODEL=NO_MOBILITY
+Mobility protocol configuration completed.
+MOBILITY parsing end...
+
+POS_3D Parsing end...
+
+INTERFACE parsing started...
+Interface Id = 1
+Interface Type = ZIGBEE
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+NETWORK_PROTOCOL parsing started...
+Network Protocol = IPV4
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+IP_ADDRESS=11.1.1.5
+SUBNET_MASK=255.255.0.0
+DEFAULT_GATEWAY=11.1.1.1
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+NETWORK_PROTOCOL parsing end...
+
+Protocol parsing started...
+Protocol Name = ARP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling ARP protocol for configuration...
+ARP_RETRY_INTERVAL=10
+ARP_RETRY_LIMIT=3
+ARP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = DATALINK_LAYER
+MAC_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+MAC_ADDRESS=AF1D00000501
+ACK_REQUEST=Enable
+MAX_BE=5
+MAX_CSMA_BACKOFF=4
+MAX_FRAME_RETRIES=3
+MIN_BE=3
+MIN_CAP_LENGTH_SYMBOLS=440
+UNIT_BACKOFF_PERIOD_SYMBOLS=20
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+MAc_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = PHYSICAL_LAYER
+PHYSICAL_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+ANTENNA_HEIGHT=1
+ANTENNA_GAIN=0
+D0=8
+CCA_MODE=CARRIER_SENSE_ONLY
+CHIPRATE_MCPS=2000
+DATARATE_KBPS=250
+EDTHRESHOLD_DBM=-95
+FREQUENCYBAND_MHZ=2400
+MIN_LIFS_PERIOD_SYMBOLS=40
+MIN_SIFS_PERIOD_SYMBOLS=12
+MODULATION_TECHNIQUE=O-QPSK
+PHY_SHRDURATION=3
+PHY_SYMBOLPEROCTET=5.3
+RECEIVER_SENSITIVITY_DBM=-85
+TURNAROUNDTIME_SYMBOLS=12
+UNIT_BACKOFFTIME_SYMBOLS=20
+TX_POWER=1
+SOURCE=Battery
+RECHARGING_CURRENT_MA=0.4
+VOLTAGE_V=3.6
+INITIAL_ENERGY=0.5
+TRANSMITTING_CURRENT_MA=8.8
+RECEIVING_CURRENT_MA=9.6
+IDLEMODE_CURRENT_MA=3.3
+SLEEPMODE_CURRENT_MA=0.237
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PHYSICAL_LAYER parsing end...
+
+LAYER parsing end...
+
+INTERFACE parsing end...
+
+LAYER parsing started...
+Layer Type = APPLICATION_LAYER
+APPLICATION_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = OPEN_FLOW
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling OPEN_FLOW protocol for configuration...
+OPEN_FLOW_ENABLE=TRUE
+SDN_CONTROLLER=FALSE
+SDN_CONTROLLER_DEVICE=SINK
+OPEN_FLOW protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+APPLICATION_LAYER parsing end...
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = TRANSPORT_LAYER
+TRANSPORT_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = TCP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling TCP protocol for configuration...
+INITIAL_SSTHRESH=65535
+TCP_MSS=1460
+MAX_SYN_RETRIES=5
+CONGESTION_ALGORITHM=NEW_RENO
+ACKNOWLEDGEMENT_TYPE=Undelayed
+TIME_WAIT_TIMER=120
+SACK_PERMITTED=FALSE
+WINDOW_SCALING=FALSE
+TIMESTAMP_OPTION=FALSE
+CONGESTION_PLOT=FALSE
+TCP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PROTOCOL parsing started...
+Protocol Name = UDP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling UDP protocol for configuration...
+UDP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+TRANSPORT_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+Protocol parsing started...
+Protocol Name = IPV4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+STATIC_IP_ROUTE=
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+ROUTING_PROTOCOL parsing started...
+Routing Protocol Name = DSR
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling DSR protocol for configuration...
+ACK_TYPE=LINK_LAYER_ACK
+DSR protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+ROUTING_PROTOCOL parsing end...
+
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+DEVICE parsing end...
+
+DEVICE Parsing started...
+Device Name = SENSOR_6
+DEVICE_ID=6
+Interface Count=1
+Device Type=SENSOR
+WIRESHARK_OPTION=Disable
+POS_3D Parsing started...
+X-Pos = 157.06
+Y-Pos = 159.3
+Z-Pos = 0
+MOBILITY parsing started...
+Calling Mobility protocol for configuration...
+MODEL=NO_MOBILITY
+Mobility protocol configuration completed.
+MOBILITY parsing end...
+
+POS_3D Parsing end...
+
+INTERFACE parsing started...
+Interface Id = 1
+Interface Type = ZIGBEE
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+NETWORK_PROTOCOL parsing started...
+Network Protocol = IPV4
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+IP_ADDRESS=11.1.1.6
+SUBNET_MASK=255.255.0.0
+DEFAULT_GATEWAY=11.1.1.1
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+NETWORK_PROTOCOL parsing end...
+
+Protocol parsing started...
+Protocol Name = ARP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling ARP protocol for configuration...
+ARP_RETRY_INTERVAL=10
+ARP_RETRY_LIMIT=3
+ARP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = DATALINK_LAYER
+MAC_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+MAC_ADDRESS=AF1D00000601
+ACK_REQUEST=Enable
+MAX_BE=5
+MAX_CSMA_BACKOFF=4
+MAX_FRAME_RETRIES=3
+MIN_BE=3
+MIN_CAP_LENGTH_SYMBOLS=440
+UNIT_BACKOFF_PERIOD_SYMBOLS=20
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+MAc_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = PHYSICAL_LAYER
+PHYSICAL_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+ANTENNA_HEIGHT=1
+ANTENNA_GAIN=0
+D0=8
+CCA_MODE=CARRIER_SENSE_ONLY
+CHIPRATE_MCPS=2000
+DATARATE_KBPS=250
+EDTHRESHOLD_DBM=-95
+FREQUENCYBAND_MHZ=2400
+MIN_LIFS_PERIOD_SYMBOLS=40
+MIN_SIFS_PERIOD_SYMBOLS=12
+MODULATION_TECHNIQUE=O-QPSK
+PHY_SHRDURATION=3
+PHY_SYMBOLPEROCTET=5.3
+RECEIVER_SENSITIVITY_DBM=-85
+TURNAROUNDTIME_SYMBOLS=12
+UNIT_BACKOFFTIME_SYMBOLS=20
+TX_POWER=1
+SOURCE=Battery
+RECHARGING_CURRENT_MA=0.4
+VOLTAGE_V=3.6
+INITIAL_ENERGY=0.5
+TRANSMITTING_CURRENT_MA=8.8
+RECEIVING_CURRENT_MA=9.6
+IDLEMODE_CURRENT_MA=3.3
+SLEEPMODE_CURRENT_MA=0.237
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PHYSICAL_LAYER parsing end...
+
+LAYER parsing end...
+
+INTERFACE parsing end...
+
+LAYER parsing started...
+Layer Type = APPLICATION_LAYER
+APPLICATION_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = OPEN_FLOW
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling OPEN_FLOW protocol for configuration...
+OPEN_FLOW_ENABLE=TRUE
+SDN_CONTROLLER=FALSE
+SDN_CONTROLLER_DEVICE=SINK
+OPEN_FLOW protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+APPLICATION_LAYER parsing end...
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = TRANSPORT_LAYER
+TRANSPORT_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = TCP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling TCP protocol for configuration...
+INITIAL_SSTHRESH=65535
+TCP_MSS=1460
+MAX_SYN_RETRIES=5
+CONGESTION_ALGORITHM=NEW_RENO
+ACKNOWLEDGEMENT_TYPE=Undelayed
+TIME_WAIT_TIMER=120
+SACK_PERMITTED=FALSE
+WINDOW_SCALING=FALSE
+TIMESTAMP_OPTION=FALSE
+CONGESTION_PLOT=FALSE
+TCP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PROTOCOL parsing started...
+Protocol Name = UDP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling UDP protocol for configuration...
+UDP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+TRANSPORT_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+Protocol parsing started...
+Protocol Name = IPV4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+STATIC_IP_ROUTE=
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+ROUTING_PROTOCOL parsing started...
+Routing Protocol Name = DSR
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling DSR protocol for configuration...
+ACK_TYPE=LINK_LAYER_ACK
+DSR protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+ROUTING_PROTOCOL parsing end...
+
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+DEVICE parsing end...
+
+DEVICE Parsing started...
+Device Name = SENSOR_7
+DEVICE_ID=7
+Interface Count=1
+Device Type=SENSOR
+WIRESHARK_OPTION=Disable
+POS_3D Parsing started...
+X-Pos = 206.3228219484882
+Y-Pos = 177.4908510638298
+Z-Pos = 0
+MOBILITY parsing started...
+Calling Mobility protocol for configuration...
+MODEL=NO_MOBILITY
+Mobility protocol configuration completed.
+MOBILITY parsing end...
+
+POS_3D Parsing end...
+
+INTERFACE parsing started...
+Interface Id = 1
+Interface Type = ZIGBEE
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+NETWORK_PROTOCOL parsing started...
+Network Protocol = IPV4
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+IP_ADDRESS=11.1.1.7
+SUBNET_MASK=255.255.0.0
+DEFAULT_GATEWAY=11.1.1.1
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+NETWORK_PROTOCOL parsing end...
+
+Protocol parsing started...
+Protocol Name = ARP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling ARP protocol for configuration...
+ARP_RETRY_INTERVAL=10
+ARP_RETRY_LIMIT=3
+ARP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = DATALINK_LAYER
+MAC_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+MAC_ADDRESS=AF1D00000701
+ACK_REQUEST=Enable
+MAX_BE=5
+MAX_CSMA_BACKOFF=4
+MAX_FRAME_RETRIES=3
+MIN_BE=3
+MIN_CAP_LENGTH_SYMBOLS=440
+UNIT_BACKOFF_PERIOD_SYMBOLS=20
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+MAc_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = PHYSICAL_LAYER
+PHYSICAL_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+ANTENNA_HEIGHT=1
+ANTENNA_GAIN=0
+D0=8
+CCA_MODE=CARRIER_SENSE_ONLY
+CHIPRATE_MCPS=2000
+DATARATE_KBPS=250
+EDTHRESHOLD_DBM=-95
+FREQUENCYBAND_MHZ=2400
+MIN_LIFS_PERIOD_SYMBOLS=40
+MIN_SIFS_PERIOD_SYMBOLS=12
+MODULATION_TECHNIQUE=O-QPSK
+PHY_SHRDURATION=3
+PHY_SYMBOLPEROCTET=5.3
+RECEIVER_SENSITIVITY_DBM=-85
+TURNAROUNDTIME_SYMBOLS=12
+UNIT_BACKOFFTIME_SYMBOLS=20
+TX_POWER=1
+SOURCE=Battery
+RECHARGING_CURRENT_MA=0.4
+VOLTAGE_V=3.6
+INITIAL_ENERGY=0.5
+TRANSMITTING_CURRENT_MA=8.8
+RECEIVING_CURRENT_MA=9.6
+IDLEMODE_CURRENT_MA=3.3
+SLEEPMODE_CURRENT_MA=0.237
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PHYSICAL_LAYER parsing end...
+
+LAYER parsing end...
+
+INTERFACE parsing end...
+
+LAYER parsing started...
+Layer Type = APPLICATION_LAYER
+APPLICATION_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = OPEN_FLOW
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling OPEN_FLOW protocol for configuration...
+OPEN_FLOW_ENABLE=TRUE
+SDN_CONTROLLER=FALSE
+SDN_CONTROLLER_DEVICE=SINK
+OPEN_FLOW protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+APPLICATION_LAYER parsing end...
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = TRANSPORT_LAYER
+TRANSPORT_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = TCP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling TCP protocol for configuration...
+INITIAL_SSTHRESH=65535
+TCP_MSS=1460
+MAX_SYN_RETRIES=5
+CONGESTION_ALGORITHM=NEW_RENO
+ACKNOWLEDGEMENT_TYPE=Undelayed
+TIME_WAIT_TIMER=120
+SACK_PERMITTED=FALSE
+WINDOW_SCALING=FALSE
+TIMESTAMP_OPTION=FALSE
+CONGESTION_PLOT=FALSE
+TCP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PROTOCOL parsing started...
+Protocol Name = UDP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling UDP protocol for configuration...
+UDP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+TRANSPORT_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+Protocol parsing started...
+Protocol Name = IPV4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+STATIC_IP_ROUTE=
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+ROUTING_PROTOCOL parsing started...
+Routing Protocol Name = DSR
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling DSR protocol for configuration...
+ACK_TYPE=LINK_LAYER_ACK
+DSR protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+ROUTING_PROTOCOL parsing end...
+
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+DEVICE parsing end...
+
+DEVICE Parsing started...
+Device Name = SENSOR_8
+DEVICE_ID=8
+Interface Count=1
+Device Type=SENSOR
+WIRESHARK_OPTION=Disable
+POS_3D Parsing started...
+X-Pos = 223.6908398656215
+Y-Pos = 119.53501679731242
+Z-Pos = 0
+MOBILITY parsing started...
+Calling Mobility protocol for configuration...
+MODEL=NO_MOBILITY
+Mobility protocol configuration completed.
+MOBILITY parsing end...
+
+POS_3D Parsing end...
+
+INTERFACE parsing started...
+Interface Id = 1
+Interface Type = ZIGBEE
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+NETWORK_PROTOCOL parsing started...
+Network Protocol = IPV4
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+IP_ADDRESS=11.1.1.8
+SUBNET_MASK=255.255.0.0
+DEFAULT_GATEWAY=11.1.1.1
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+NETWORK_PROTOCOL parsing end...
+
+Protocol parsing started...
+Protocol Name = ARP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling ARP protocol for configuration...
+ARP_RETRY_INTERVAL=10
+ARP_RETRY_LIMIT=3
+ARP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = DATALINK_LAYER
+MAC_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+MAC_ADDRESS=AF1D00000801
+ACK_REQUEST=Enable
+MAX_BE=5
+MAX_CSMA_BACKOFF=4
+MAX_FRAME_RETRIES=3
+MIN_BE=3
+MIN_CAP_LENGTH_SYMBOLS=440
+UNIT_BACKOFF_PERIOD_SYMBOLS=20
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+MAc_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = PHYSICAL_LAYER
+PHYSICAL_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+ANTENNA_HEIGHT=1
+ANTENNA_GAIN=0
+D0=8
+CCA_MODE=CARRIER_SENSE_ONLY
+CHIPRATE_MCPS=2000
+DATARATE_KBPS=250
+EDTHRESHOLD_DBM=-95
+FREQUENCYBAND_MHZ=2400
+MIN_LIFS_PERIOD_SYMBOLS=40
+MIN_SIFS_PERIOD_SYMBOLS=12
+MODULATION_TECHNIQUE=O-QPSK
+PHY_SHRDURATION=3
+PHY_SYMBOLPEROCTET=5.3
+RECEIVER_SENSITIVITY_DBM=-85
+TURNAROUNDTIME_SYMBOLS=12
+UNIT_BACKOFFTIME_SYMBOLS=20
+TX_POWER=1
+SOURCE=Battery
+RECHARGING_CURRENT_MA=0.4
+VOLTAGE_V=3.6
+INITIAL_ENERGY=0.5
+TRANSMITTING_CURRENT_MA=8.8
+RECEIVING_CURRENT_MA=9.6
+IDLEMODE_CURRENT_MA=3.3
+SLEEPMODE_CURRENT_MA=0.237
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PHYSICAL_LAYER parsing end...
+
+LAYER parsing end...
+
+INTERFACE parsing end...
+
+LAYER parsing started...
+Layer Type = APPLICATION_LAYER
+APPLICATION_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = OPEN_FLOW
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling OPEN_FLOW protocol for configuration...
+OPEN_FLOW_ENABLE=TRUE
+SDN_CONTROLLER=FALSE
+SDN_CONTROLLER_DEVICE=SINK
+OPEN_FLOW protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+APPLICATION_LAYER parsing end...
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = TRANSPORT_LAYER
+TRANSPORT_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = TCP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling TCP protocol for configuration...
+INITIAL_SSTHRESH=65535
+TCP_MSS=1460
+MAX_SYN_RETRIES=5
+CONGESTION_ALGORITHM=NEW_RENO
+ACKNOWLEDGEMENT_TYPE=Undelayed
+TIME_WAIT_TIMER=120
+SACK_PERMITTED=FALSE
+WINDOW_SCALING=FALSE
+TIMESTAMP_OPTION=FALSE
+CONGESTION_PLOT=FALSE
+TCP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PROTOCOL parsing started...
+Protocol Name = UDP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling UDP protocol for configuration...
+UDP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+TRANSPORT_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+Protocol parsing started...
+Protocol Name = IPV4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+STATIC_IP_ROUTE=
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+ROUTING_PROTOCOL parsing started...
+Routing Protocol Name = DSR
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling DSR protocol for configuration...
+ACK_TYPE=LINK_LAYER_ACK
+DSR protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+ROUTING_PROTOCOL parsing end...
+
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+DEVICE parsing end...
+
+DEVICE Parsing started...
+Device Name = SENSOR_9
+DEVICE_ID=9
+Interface Count=1
+Device Type=SENSOR
+WIRESHARK_OPTION=Disable
+POS_3D Parsing started...
+X-Pos = 297.3129563269877
+Y-Pos = 122.6231914893617
+Z-Pos = 0
+MOBILITY parsing started...
+Calling Mobility protocol for configuration...
+MODEL=NO_MOBILITY
+Mobility protocol configuration completed.
+MOBILITY parsing end...
+
+POS_3D Parsing end...
+
+INTERFACE parsing started...
+Interface Id = 1
+Interface Type = ZIGBEE
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+NETWORK_PROTOCOL parsing started...
+Network Protocol = IPV4
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+IP_ADDRESS=11.1.1.9
+SUBNET_MASK=255.255.0.0
+DEFAULT_GATEWAY=11.1.1.1
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+NETWORK_PROTOCOL parsing end...
+
+Protocol parsing started...
+Protocol Name = ARP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling ARP protocol for configuration...
+ARP_RETRY_INTERVAL=10
+ARP_RETRY_LIMIT=3
+ARP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = DATALINK_LAYER
+MAC_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+MAC_ADDRESS=AF1D00000901
+ACK_REQUEST=Enable
+MAX_BE=5
+MAX_CSMA_BACKOFF=4
+MAX_FRAME_RETRIES=3
+MIN_BE=3
+MIN_CAP_LENGTH_SYMBOLS=440
+UNIT_BACKOFF_PERIOD_SYMBOLS=20
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+MAc_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = PHYSICAL_LAYER
+PHYSICAL_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+ANTENNA_HEIGHT=1
+ANTENNA_GAIN=0
+D0=8
+CCA_MODE=CARRIER_SENSE_ONLY
+CHIPRATE_MCPS=2000
+DATARATE_KBPS=250
+EDTHRESHOLD_DBM=-95
+FREQUENCYBAND_MHZ=2400
+MIN_LIFS_PERIOD_SYMBOLS=40
+MIN_SIFS_PERIOD_SYMBOLS=12
+MODULATION_TECHNIQUE=O-QPSK
+PHY_SHRDURATION=3
+PHY_SYMBOLPEROCTET=5.3
+RECEIVER_SENSITIVITY_DBM=-85
+TURNAROUNDTIME_SYMBOLS=12
+UNIT_BACKOFFTIME_SYMBOLS=20
+TX_POWER=1
+SOURCE=Battery
+RECHARGING_CURRENT_MA=0.4
+VOLTAGE_V=3.6
+INITIAL_ENERGY=0.5
+TRANSMITTING_CURRENT_MA=8.8
+RECEIVING_CURRENT_MA=9.6
+IDLEMODE_CURRENT_MA=3.3
+SLEEPMODE_CURRENT_MA=0.237
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PHYSICAL_LAYER parsing end...
+
+LAYER parsing end...
+
+INTERFACE parsing end...
+
+LAYER parsing started...
+Layer Type = APPLICATION_LAYER
+APPLICATION_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = OPEN_FLOW
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling OPEN_FLOW protocol for configuration...
+OPEN_FLOW_ENABLE=TRUE
+SDN_CONTROLLER=FALSE
+SDN_CONTROLLER_DEVICE=SINK
+OPEN_FLOW protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+APPLICATION_LAYER parsing end...
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = TRANSPORT_LAYER
+TRANSPORT_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = TCP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling TCP protocol for configuration...
+INITIAL_SSTHRESH=65535
+TCP_MSS=1460
+MAX_SYN_RETRIES=5
+CONGESTION_ALGORITHM=NEW_RENO
+ACKNOWLEDGEMENT_TYPE=Undelayed
+TIME_WAIT_TIMER=120
+SACK_PERMITTED=FALSE
+WINDOW_SCALING=FALSE
+TIMESTAMP_OPTION=FALSE
+CONGESTION_PLOT=FALSE
+TCP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PROTOCOL parsing started...
+Protocol Name = UDP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling UDP protocol for configuration...
+UDP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+TRANSPORT_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+Protocol parsing started...
+Protocol Name = IPV4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+STATIC_IP_ROUTE=
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+ROUTING_PROTOCOL parsing started...
+Routing Protocol Name = DSR
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling DSR protocol for configuration...
+ACK_TYPE=LINK_LAYER_ACK
+DSR protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+ROUTING_PROTOCOL parsing end...
+
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+DEVICE parsing end...
+
+DEVICE Parsing started...
+Device Name = SENSOR_10
+DEVICE_ID=10
+Interface Count=1
+Device Type=SENSOR
+WIRESHARK_OPTION=Disable
+POS_3D Parsing started...
+X-Pos = 101.34313549832027
+Y-Pos = 45.353359462486004
+Z-Pos = 0
+MOBILITY parsing started...
+Calling Mobility protocol for configuration...
+MODEL=NO_MOBILITY
+Mobility protocol configuration completed.
+MOBILITY parsing end...
+
+POS_3D Parsing end...
+
+INTERFACE parsing started...
+Interface Id = 1
+Interface Type = ZIGBEE
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+NETWORK_PROTOCOL parsing started...
+Network Protocol = IPV4
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+IP_ADDRESS=11.1.1.10
+SUBNET_MASK=255.255.0.0
+DEFAULT_GATEWAY=11.1.1.1
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+NETWORK_PROTOCOL parsing end...
+
+Protocol parsing started...
+Protocol Name = ARP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling ARP protocol for configuration...
+ARP_RETRY_INTERVAL=10
+ARP_RETRY_LIMIT=3
+ARP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = DATALINK_LAYER
+MAC_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+MAC_ADDRESS=AF1D00000a01
+ACK_REQUEST=Enable
+MAX_BE=5
+MAX_CSMA_BACKOFF=4
+MAX_FRAME_RETRIES=3
+MIN_BE=3
+MIN_CAP_LENGTH_SYMBOLS=440
+UNIT_BACKOFF_PERIOD_SYMBOLS=20
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+MAc_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = PHYSICAL_LAYER
+PHYSICAL_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+ANTENNA_HEIGHT=1
+ANTENNA_GAIN=0
+D0=8
+CCA_MODE=CARRIER_SENSE_ONLY
+CHIPRATE_MCPS=2000
+DATARATE_KBPS=250
+EDTHRESHOLD_DBM=-95
+FREQUENCYBAND_MHZ=2400
+MIN_LIFS_PERIOD_SYMBOLS=40
+MIN_SIFS_PERIOD_SYMBOLS=12
+MODULATION_TECHNIQUE=O-QPSK
+PHY_SHRDURATION=3
+PHY_SYMBOLPEROCTET=5.3
+RECEIVER_SENSITIVITY_DBM=-85
+TURNAROUNDTIME_SYMBOLS=12
+UNIT_BACKOFFTIME_SYMBOLS=20
+TX_POWER=1
+SOURCE=Battery
+RECHARGING_CURRENT_MA=0.4
+VOLTAGE_V=3.6
+INITIAL_ENERGY=0.5
+TRANSMITTING_CURRENT_MA=8.8
+RECEIVING_CURRENT_MA=9.6
+IDLEMODE_CURRENT_MA=3.3
+SLEEPMODE_CURRENT_MA=0.237
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PHYSICAL_LAYER parsing end...
+
+LAYER parsing end...
+
+INTERFACE parsing end...
+
+LAYER parsing started...
+Layer Type = APPLICATION_LAYER
+APPLICATION_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = OPEN_FLOW
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling OPEN_FLOW protocol for configuration...
+OPEN_FLOW_ENABLE=TRUE
+SDN_CONTROLLER=FALSE
+SDN_CONTROLLER_DEVICE=SINK
+OPEN_FLOW protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+APPLICATION_LAYER parsing end...
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = TRANSPORT_LAYER
+TRANSPORT_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = TCP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling TCP protocol for configuration...
+INITIAL_SSTHRESH=65535
+TCP_MSS=1460
+MAX_SYN_RETRIES=5
+CONGESTION_ALGORITHM=NEW_RENO
+ACKNOWLEDGEMENT_TYPE=Undelayed
+TIME_WAIT_TIMER=120
+SACK_PERMITTED=FALSE
+WINDOW_SCALING=FALSE
+TIMESTAMP_OPTION=FALSE
+CONGESTION_PLOT=FALSE
+TCP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PROTOCOL parsing started...
+Protocol Name = UDP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling UDP protocol for configuration...
+UDP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+TRANSPORT_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+Protocol parsing started...
+Protocol Name = IPV4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+STATIC_IP_ROUTE=
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+ROUTING_PROTOCOL parsing started...
+Routing Protocol Name = DSR
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling DSR protocol for configuration...
+ACK_TYPE=LINK_LAYER_ACK
+DSR protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+ROUTING_PROTOCOL parsing end...
+
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+DEVICE parsing end...
+
+DEVICE Parsing started...
+Device Name = SENSOR_11
+DEVICE_ID=11
+Interface Count=1
+Device Type=SENSOR
+WIRESHARK_OPTION=Disable
+POS_3D Parsing started...
+X-Pos = 181.97187010078392
+Y-Pos = 20.15040313549832
+Z-Pos = 0
+MOBILITY parsing started...
+Calling Mobility protocol for configuration...
+MODEL=NO_MOBILITY
+Mobility protocol configuration completed.
+MOBILITY parsing end...
+
+POS_3D Parsing end...
+
+INTERFACE parsing started...
+Interface Id = 1
+Interface Type = ZIGBEE
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+NETWORK_PROTOCOL parsing started...
+Network Protocol = IPV4
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+IP_ADDRESS=11.1.1.11
+SUBNET_MASK=255.255.0.0
+DEFAULT_GATEWAY=11.1.1.1
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+NETWORK_PROTOCOL parsing end...
+
+Protocol parsing started...
+Protocol Name = ARP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling ARP protocol for configuration...
+ARP_RETRY_INTERVAL=10
+ARP_RETRY_LIMIT=3
+ARP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = DATALINK_LAYER
+MAC_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+MAC_ADDRESS=AF1D00000b01
+ACK_REQUEST=Enable
+MAX_BE=5
+MAX_CSMA_BACKOFF=4
+MAX_FRAME_RETRIES=3
+MIN_BE=3
+MIN_CAP_LENGTH_SYMBOLS=440
+UNIT_BACKOFF_PERIOD_SYMBOLS=20
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+MAc_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = PHYSICAL_LAYER
+PHYSICAL_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+ANTENNA_HEIGHT=1
+ANTENNA_GAIN=0
+D0=8
+CCA_MODE=CARRIER_SENSE_ONLY
+CHIPRATE_MCPS=2000
+DATARATE_KBPS=250
+EDTHRESHOLD_DBM=-95
+FREQUENCYBAND_MHZ=2400
+MIN_LIFS_PERIOD_SYMBOLS=40
+MIN_SIFS_PERIOD_SYMBOLS=12
+MODULATION_TECHNIQUE=O-QPSK
+PHY_SHRDURATION=3
+PHY_SYMBOLPEROCTET=5.3
+RECEIVER_SENSITIVITY_DBM=-85
+TURNAROUNDTIME_SYMBOLS=12
+UNIT_BACKOFFTIME_SYMBOLS=20
+TX_POWER=1
+SOURCE=Battery
+RECHARGING_CURRENT_MA=0.4
+VOLTAGE_V=3.6
+INITIAL_ENERGY=0.5
+TRANSMITTING_CURRENT_MA=8.8
+RECEIVING_CURRENT_MA=9.6
+IDLEMODE_CURRENT_MA=3.3
+SLEEPMODE_CURRENT_MA=0.237
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PHYSICAL_LAYER parsing end...
+
+LAYER parsing end...
+
+INTERFACE parsing end...
+
+LAYER parsing started...
+Layer Type = APPLICATION_LAYER
+APPLICATION_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = OPEN_FLOW
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling OPEN_FLOW protocol for configuration...
+OPEN_FLOW_ENABLE=TRUE
+SDN_CONTROLLER=FALSE
+SDN_CONTROLLER_DEVICE=SINK
+OPEN_FLOW protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+APPLICATION_LAYER parsing end...
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = TRANSPORT_LAYER
+TRANSPORT_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = TCP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling TCP protocol for configuration...
+INITIAL_SSTHRESH=65535
+TCP_MSS=1460
+MAX_SYN_RETRIES=5
+CONGESTION_ALGORITHM=NEW_RENO
+ACKNOWLEDGEMENT_TYPE=Undelayed
+TIME_WAIT_TIMER=120
+SACK_PERMITTED=FALSE
+WINDOW_SCALING=FALSE
+TIMESTAMP_OPTION=FALSE
+CONGESTION_PLOT=FALSE
+TCP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PROTOCOL parsing started...
+Protocol Name = UDP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling UDP protocol for configuration...
+UDP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+TRANSPORT_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+Protocol parsing started...
+Protocol Name = IPV4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+STATIC_IP_ROUTE=
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+ROUTING_PROTOCOL parsing started...
+Routing Protocol Name = DSR
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling DSR protocol for configuration...
+ACK_TYPE=LINK_LAYER_ACK
+DSR protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+ROUTING_PROTOCOL parsing end...
+
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+DEVICE parsing end...
+
+DEVICE Parsing started...
+Device Name = SENSOR_12
+DEVICE_ID=12
+Interface Count=1
+Device Type=SENSOR
+WIRESHARK_OPTION=Disable
+POS_3D Parsing started...
+X-Pos = 12.043113101903703
+Y-Pos = 103.86166853303472
+Z-Pos = 0
+MOBILITY parsing started...
+Calling Mobility protocol for configuration...
+MODEL=NO_MOBILITY
+Mobility protocol configuration completed.
+MOBILITY parsing end...
+
+POS_3D Parsing end...
+
+INTERFACE parsing started...
+Interface Id = 1
+Interface Type = ZIGBEE
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+NETWORK_PROTOCOL parsing started...
+Network Protocol = IPV4
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+IP_ADDRESS=11.1.1.12
+SUBNET_MASK=255.255.0.0
+DEFAULT_GATEWAY=11.1.1.1
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+NETWORK_PROTOCOL parsing end...
+
+Protocol parsing started...
+Protocol Name = ARP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling ARP protocol for configuration...
+ARP_RETRY_INTERVAL=10
+ARP_RETRY_LIMIT=3
+ARP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = DATALINK_LAYER
+MAC_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+MAC_ADDRESS=AF1D00000c01
+ACK_REQUEST=Enable
+MAX_BE=5
+MAX_CSMA_BACKOFF=4
+MAX_FRAME_RETRIES=3
+MIN_BE=3
+MIN_CAP_LENGTH_SYMBOLS=440
+UNIT_BACKOFF_PERIOD_SYMBOLS=20
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+MAc_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = PHYSICAL_LAYER
+PHYSICAL_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+ANTENNA_HEIGHT=1
+ANTENNA_GAIN=0
+D0=8
+CCA_MODE=CARRIER_SENSE_ONLY
+CHIPRATE_MCPS=2000
+DATARATE_KBPS=250
+EDTHRESHOLD_DBM=-95
+FREQUENCYBAND_MHZ=2400
+MIN_LIFS_PERIOD_SYMBOLS=40
+MIN_SIFS_PERIOD_SYMBOLS=12
+MODULATION_TECHNIQUE=O-QPSK
+PHY_SHRDURATION=3
+PHY_SYMBOLPEROCTET=5.3
+RECEIVER_SENSITIVITY_DBM=-85
+TURNAROUNDTIME_SYMBOLS=12
+UNIT_BACKOFFTIME_SYMBOLS=20
+TX_POWER=1
+SOURCE=Battery
+RECHARGING_CURRENT_MA=0.4
+VOLTAGE_V=3.6
+INITIAL_ENERGY=0.5
+TRANSMITTING_CURRENT_MA=8.8
+RECEIVING_CURRENT_MA=9.6
+IDLEMODE_CURRENT_MA=3.3
+SLEEPMODE_CURRENT_MA=0.237
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PHYSICAL_LAYER parsing end...
+
+LAYER parsing end...
+
+INTERFACE parsing end...
+
+LAYER parsing started...
+Layer Type = APPLICATION_LAYER
+APPLICATION_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = OPEN_FLOW
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling OPEN_FLOW protocol for configuration...
+OPEN_FLOW_ENABLE=TRUE
+SDN_CONTROLLER=FALSE
+SDN_CONTROLLER_DEVICE=SINK
+OPEN_FLOW protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+APPLICATION_LAYER parsing end...
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = TRANSPORT_LAYER
+TRANSPORT_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = TCP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling TCP protocol for configuration...
+INITIAL_SSTHRESH=65535
+TCP_MSS=1460
+MAX_SYN_RETRIES=5
+CONGESTION_ALGORITHM=NEW_RENO
+ACKNOWLEDGEMENT_TYPE=Undelayed
+TIME_WAIT_TIMER=120
+SACK_PERMITTED=FALSE
+WINDOW_SCALING=FALSE
+TIMESTAMP_OPTION=FALSE
+CONGESTION_PLOT=FALSE
+TCP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PROTOCOL parsing started...
+Protocol Name = UDP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling UDP protocol for configuration...
+UDP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+TRANSPORT_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+Protocol parsing started...
+Protocol Name = IPV4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+STATIC_IP_ROUTE=
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+ROUTING_PROTOCOL parsing started...
+Routing Protocol Name = DSR
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling DSR protocol for configuration...
+ACK_TYPE=LINK_LAYER_ACK
+DSR protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+ROUTING_PROTOCOL parsing end...
+
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+DEVICE parsing end...
+
+DEVICE Parsing started...
+Device Name = SENSOR_13
+DEVICE_ID=13
+Interface Count=1
+Device Type=SENSOR
+WIRESHARK_OPTION=Disable
+POS_3D Parsing started...
+X-Pos = 145.02
+Y-Pos = 58.5
+Z-Pos = 0
+MOBILITY parsing started...
+Calling Mobility protocol for configuration...
+MODEL=NO_MOBILITY
+Mobility protocol configuration completed.
+MOBILITY parsing end...
+
+POS_3D Parsing end...
+
+INTERFACE parsing started...
+Interface Id = 1
+Interface Type = ZIGBEE
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+NETWORK_PROTOCOL parsing started...
+Network Protocol = IPV4
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+IP_ADDRESS=11.1.1.13
+SUBNET_MASK=255.255.0.0
+DEFAULT_GATEWAY=11.1.1.1
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+NETWORK_PROTOCOL parsing end...
+
+Protocol parsing started...
+Protocol Name = ARP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling ARP protocol for configuration...
+ARP_RETRY_INTERVAL=10
+ARP_RETRY_LIMIT=3
+ARP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = DATALINK_LAYER
+MAC_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+MAC_ADDRESS=AF1D00000d01
+ACK_REQUEST=Enable
+MAX_BE=5
+MAX_CSMA_BACKOFF=4
+MAX_FRAME_RETRIES=3
+MIN_BE=3
+MIN_CAP_LENGTH_SYMBOLS=440
+UNIT_BACKOFF_PERIOD_SYMBOLS=20
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+MAc_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = PHYSICAL_LAYER
+PHYSICAL_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = IEEE802.15.4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling Zigbee protocol for configuration...
+ANTENNA_HEIGHT=1
+ANTENNA_GAIN=0
+D0=8
+CCA_MODE=CARRIER_SENSE_ONLY
+CHIPRATE_MCPS=2000
+DATARATE_KBPS=250
+EDTHRESHOLD_DBM=-95
+FREQUENCYBAND_MHZ=2400
+MIN_LIFS_PERIOD_SYMBOLS=40
+MIN_SIFS_PERIOD_SYMBOLS=12
+MODULATION_TECHNIQUE=O-QPSK
+PHY_SHRDURATION=3
+PHY_SYMBOLPEROCTET=5.3
+RECEIVER_SENSITIVITY_DBM=-85
+TURNAROUNDTIME_SYMBOLS=12
+UNIT_BACKOFFTIME_SYMBOLS=20
+TX_POWER=1
+SOURCE=Battery
+RECHARGING_CURRENT_MA=0.4
+VOLTAGE_V=3.6
+INITIAL_ENERGY=0.5
+TRANSMITTING_CURRENT_MA=8.8
+RECEIVING_CURRENT_MA=9.6
+IDLEMODE_CURRENT_MA=3.3
+SLEEPMODE_CURRENT_MA=0.237
+Zigbee protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PHYSICAL_LAYER parsing end...
+
+LAYER parsing end...
+
+INTERFACE parsing end...
+
+LAYER parsing started...
+Layer Type = APPLICATION_LAYER
+APPLICATION_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = OPEN_FLOW
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling OPEN_FLOW protocol for configuration...
+OPEN_FLOW_ENABLE=TRUE
+SDN_CONTROLLER=FALSE
+SDN_CONTROLLER_DEVICE=SINK
+OPEN_FLOW protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+APPLICATION_LAYER parsing end...
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = TRANSPORT_LAYER
+TRANSPORT_LAYER parsing started...
+PROTOCOL parsing started...
+Protocol Name = TCP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling TCP protocol for configuration...
+INITIAL_SSTHRESH=65535
+TCP_MSS=1460
+MAX_SYN_RETRIES=5
+CONGESTION_ALGORITHM=NEW_RENO
+ACKNOWLEDGEMENT_TYPE=Undelayed
+TIME_WAIT_TIMER=120
+SACK_PERMITTED=FALSE
+WINDOW_SCALING=FALSE
+TIMESTAMP_OPTION=FALSE
+CONGESTION_PLOT=FALSE
+TCP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+PROTOCOL parsing started...
+Protocol Name = UDP
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling UDP protocol for configuration...
+UDP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+PROTOCOL parsing end...
+
+TRANSPORT_LAYER parsing end...
+
+LAYER parsing end...
+
+LAYER parsing started...
+Layer Type = NETWORK_LAYER
+NETWORK_LAYER parsing started...
+Protocol parsing started...
+Protocol Name = IPV4
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling IP protocol for configuration...
+STATIC_IP_ROUTE=
+IP protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+Protocol parsing end...
+ROUTING_PROTOCOL parsing started...
+Routing Protocol Name = DSR
+Set Property = TRUE
+PROTOCOL_PROPERTY parsing started...
+Calling DSR protocol for configuration...
+ACK_TYPE=LINK_LAYER_ACK
+DSR protocol configuration completed.
+PROTOCOL_PROPERTY parsing end...
+
+ROUTING_PROTOCOL parsing end...
+
+NETWORK_LAYER parsing end...
+
+LAYER parsing end...
+
+DEVICE parsing end...
+
+DEVICE_CONFIGURATION Parsing end...
+
+Parsing CONNECTION...
+Link Type = MULTIPOINT_TO_MULTIPOINT
+LINK_ID=1
+MEDIUM = WIRELESS
+Link Mode = HALF_DUPLEX
+DEVICE_COUNT = 13
+Device Name=SINK
+Interface Id=1
+Device Name=SENSOR_2
+Interface Id=1
+Device Name=SENSOR_3
+Interface Id=1
+Device Name=SENSOR_4
+Interface Id=1
+Device Name=SENSOR_5
+Interface Id=1
+Device Name=SENSOR_6
+Interface Id=1
+Device Name=SENSOR_7
+Interface Id=1
+Device Name=SENSOR_8
+Interface Id=1
+Device Name=SENSOR_9
+Interface Id=1
+Device Name=SENSOR_10
+Interface Id=1
+Device Name=SENSOR_11
+Interface Id=1
+Device Name=SENSOR_12
+Interface Id=1
+Device Name=SENSOR_13
+Interface Id=1
+PROPAGATION_MEDIUM=AIR
+CHANNEL_CHARACTERISTICS=PATHLOSS_ONLY
+PATHLOSS_MODEL=LOG_DISTANCE
+PATHLOSS_EXPONENT=2
+CONNECTION Parsing end...
+Parsing APPLICATION_CONFIGURATION...
+Calling Application protocol for configuration...
+COUNT=2
+ID=1
+APPLICATION_TYPE=SENSOR_APP
+ENCRYPTION=NONE
+QOS=BE
+APPLICATION_METHOD=UNICAST
+NAME=App1_SENSOR_APP
+SOURCE_COUNT=1
+SOURCE_ID=2
+DESTINATION_COUNT=1
+DESTINATION_ID=3
+START_TIME=0
+RANDOM_STARTUP=FALSE
+END_TIME=100000
+PROTOCOL=NONE
+TRANSPORT_PROTOCOL=UDP
+DISTRIBUTION=CONSTANT
+VALUE=50
+DISTRIBUTION=CONSTANT
+VALUE=1000000
+ID=2
+APPLICATION_TYPE=SENSOR_APP
+ENCRYPTION=NONE
+QOS=BE
+APPLICATION_METHOD=UNICAST
+NAME=App2_SENSOR_APP
+SOURCE_COUNT=1
+SOURCE_ID=12
+DESTINATION_COUNT=1
+DESTINATION_ID=7
+START_TIME=0
+RANDOM_STARTUP=FALSE
+END_TIME=100000
+PROTOCOL=NONE
+TRANSPORT_PROTOCOL=UDP
+DISTRIBUTION=CONSTANT
+VALUE=50
+DISTRIBUTION=CONSTANT
+VALUE=1000000
+Application protocol configuration completed.
+APPLICATION_CONFIGURATION Parsing end...
+
+NETWORK_CONFIGURATION parsing end...
+
+Parsing SIMULATION_PARAMETER...
+SIMULATION_EXIT_TYPE=TIME
+SIMULATION_TIME=500.0
+Seed Parsing started....
+Seed1=12345678
+Seed2=23456789
+Seed Parsing end....
+STATUS=OFFLINE
+STATUS=TRUE
+INPUT_FILE=
+SIMULATION_PARAMETER parsing end...
+NAME=ARP
+STATUS=ENABLE
+FILE=
+NAME=MOBILITY
+OFFICE_COUNT=0
+Packet trace parsing start...
+STATUS=ENABLE
+FILE_NAME=Packet Trace.csv
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+NAME=MAC_LAYER_PAYLOAD
+NAME=All_Common_Attributes
+NAME=PHY_LAYER_PAYLOAD
+NAME=SEGMENT_ID
+NAME=SOURCE_ID
+NAME=APP_LAYER_PAYLOAD
+NAME=NEXT_HOP_IP
+NAME=DESTINATION_IP
+NAME=RECEIVER_ID
+NAME=APP_LAYER_ARRIVAL_TIME
+NAME=NW_LAYER_PAYLOAD
+NAME=NW_LAYER_ARRIVAL_TIME
+NAME=TRANSMITTER_ID
+NAME=PACKET_ID
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+NAME=MAC_LAYER_PAYLOAD
+NAME=All_Common_Attributes
+NAME=PHY_LAYER_PAYLOAD
+NAME=SEGMENT_ID
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+NAME=MAC_LAYER_PAYLOAD
+NAME=All_Common_Attributes
+NAME=PHY_LAYER_PAYLOAD
+NAME=SEGMENT_ID
+NAME=SOURCE_ID
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+NAME=MAC_LAYER_PAYLOAD
+NAME=All_Common_Attributes
+NAME=PHY_LAYER_PAYLOAD
+NAME=SEGMENT_ID
+NAME=SOURCE_ID
+NAME=APP_LAYER_PAYLOAD
+NAME=NEXT_HOP_IP
+NAME=DESTINATION_IP
+NAME=RECEIVER_ID
+NAME=APP_LAYER_ARRIVAL_TIME
+NAME=NW_LAYER_PAYLOAD
+NAME=NW_LAYER_ARRIVAL_TIME
+NAME=TRANSMITTER_ID
+NAME=PACKET_ID
+NAME=MAC_LAYER_ARRIVAL_TIME
+NAME=DESTINATION_ID
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+NAME=MAC_LAYER_PAYLOAD
+NAME=All_Common_Attributes
+NAME=PHY_LAYER_PAYLOAD
+NAME=SEGMENT_ID
+NAME=SOURCE_ID
+NAME=APP_LAYER_PAYLOAD
+NAME=NEXT_HOP_IP
+NAME=DESTINATION_IP
+NAME=RECEIVER_ID
+NAME=APP_LAYER_ARRIVAL_TIME
+NAME=NW_LAYER_PAYLOAD
+NAME=NW_LAYER_ARRIVAL_TIME
+NAME=TRANSMITTER_ID
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+NAME=MAC_LAYER_PAYLOAD
+NAME=All_Common_Attributes
+NAME=PHY_LAYER_PAYLOAD
+NAME=SEGMENT_ID
+NAME=SOURCE_ID
+NAME=APP_LAYER_PAYLOAD
+NAME=NEXT_HOP_IP
+NAME=DESTINATION_IP
+NAME=RECEIVER_ID
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+NAME=MAC_LAYER_PAYLOAD
+NAME=All_Common_Attributes
+NAME=PHY_LAYER_PAYLOAD
+NAME=SEGMENT_ID
+NAME=SOURCE_ID
+NAME=APP_LAYER_PAYLOAD
+NAME=NEXT_HOP_IP
+NAME=DESTINATION_IP
+NAME=RECEIVER_ID
+NAME=APP_LAYER_ARRIVAL_TIME
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+NAME=MAC_LAYER_PAYLOAD
+NAME=All_Common_Attributes
+NAME=PHY_LAYER_PAYLOAD
+NAME=SEGMENT_ID
+NAME=SOURCE_ID
+NAME=APP_LAYER_PAYLOAD
+NAME=NEXT_HOP_IP
+NAME=DESTINATION_IP
+NAME=RECEIVER_ID
+NAME=APP_LAYER_ARRIVAL_TIME
+NAME=NW_LAYER_PAYLOAD
+NAME=NW_LAYER_ARRIVAL_TIME
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+NAME=MAC_LAYER_PAYLOAD
+NAME=All_Common_Attributes
+NAME=PHY_LAYER_PAYLOAD
+NAME=SEGMENT_ID
+NAME=SOURCE_ID
+NAME=APP_LAYER_PAYLOAD
+NAME=NEXT_HOP_IP
+NAME=DESTINATION_IP
+NAME=RECEIVER_ID
+NAME=APP_LAYER_ARRIVAL_TIME
+NAME=NW_LAYER_PAYLOAD
+NAME=NW_LAYER_ARRIVAL_TIME
+NAME=TRANSMITTER_ID
+NAME=PACKET_ID
+NAME=MAC_LAYER_ARRIVAL_TIME
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+NAME=MAC_LAYER_PAYLOAD
+NAME=All_Common_Attributes
+NAME=PHY_LAYER_PAYLOAD
+NAME=SEGMENT_ID
+NAME=SOURCE_ID
+NAME=APP_LAYER_PAYLOAD
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+NAME=MAC_LAYER_PAYLOAD
+NAME=All_Common_Attributes
+NAME=PHY_LAYER_PAYLOAD
+NAME=SEGMENT_ID
+NAME=SOURCE_ID
+NAME=APP_LAYER_PAYLOAD
+NAME=NEXT_HOP_IP
+NAME=DESTINATION_IP
+NAME=RECEIVER_ID
+NAME=APP_LAYER_ARRIVAL_TIME
+NAME=NW_LAYER_PAYLOAD
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+NAME=MAC_LAYER_PAYLOAD
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+NAME=MAC_LAYER_PAYLOAD
+NAME=All_Common_Attributes
+NAME=PHY_LAYER_PAYLOAD
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+NAME=MAC_LAYER_PAYLOAD
+NAME=All_Common_Attributes
+NAME=PHY_LAYER_PAYLOAD
+NAME=SEGMENT_ID
+NAME=SOURCE_ID
+NAME=APP_LAYER_PAYLOAD
+NAME=NEXT_HOP_IP
+NAME=DESTINATION_IP
+NAME=RECEIVER_ID
+NAME=APP_LAYER_ARRIVAL_TIME
+NAME=NW_LAYER_PAYLOAD
+NAME=NW_LAYER_ARRIVAL_TIME
+NAME=TRANSMITTER_ID
+NAME=PACKET_ID
+NAME=MAC_LAYER_ARRIVAL_TIME
+NAME=DESTINATION_ID
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+NAME=MAC_LAYER_PAYLOAD
+NAME=All_Common_Attributes
+NAME=PHY_LAYER_PAYLOAD
+NAME=SEGMENT_ID
+NAME=SOURCE_ID
+NAME=APP_LAYER_PAYLOAD
+NAME=NEXT_HOP_IP
+NAME=DESTINATION_IP
+NAME=RECEIVER_ID
+NAME=APP_LAYER_ARRIVAL_TIME
+NAME=NW_LAYER_PAYLOAD
+NAME=NW_LAYER_ARRIVAL_TIME
+NAME=TRANSMITTER_ID
+NAME=PACKET_ID
+NAME=MAC_LAYER_ARRIVAL_TIME
+NAME=DESTINATION_ID
+NAME=ISACK
+NAME=CWND
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+STATUS=ENABLE
+NAME=ISACK
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+NAME=MAC_LAYER_PAYLOAD
+NAME=All_Common_Attributes
+NAME=PHY_LAYER_PAYLOAD
+NAME=SEGMENT_ID
+NAME=SOURCE_ID
+NAME=APP_LAYER_PAYLOAD
+NAME=NEXT_HOP_IP
+NAME=DESTINATION_IP
+NAME=RECEIVER_ID
+NAME=APP_LAYER_ARRIVAL_TIME
+NAME=NW_LAYER_PAYLOAD
+NAME=NW_LAYER_ARRIVAL_TIME
+NAME=TRANSMITTER_ID
+NAME=PACKET_ID
+NAME=MAC_LAYER_ARRIVAL_TIME
+NAME=DESTINATION_ID
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+NAME=MAC_LAYER_PAYLOAD
+NAME=All_Common_Attributes
+NAME=PHY_LAYER_PAYLOAD
+NAME=SEGMENT_ID
+NAME=SOURCE_ID
+NAME=APP_LAYER_PAYLOAD
+NAME=NEXT_HOP_IP
+NAME=DESTINATION_IP
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+STATUS=ENABLE
+NAME=ISACK
+NAME=CWND
+NAME=SEQ_NO
+NAME=ISSYN
+NAME=ACK_NO
+NAME=ISFIN
+NAME=All_TCP_Attributes
+NAME=GATEWAY_IP
+NAME=CONTROL_PACKET_TYPE
+NAME=TRX_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_OVERHEAD
+NAME=PHY_LAYER_ARRIVAL_TIME
+NAME=PHY_LAYER_START_TIME
+NAME=PHY_LAYER_END_TIME
+NAME=PACKET_TYPE
+NAME=SOURCE_IP
+NAME=PACKET_STATUS
+NAME=TRX_LAYER_PAYLOAD
+NAME=MAC_LAYER_PAYLOAD
+NAME=All_Common_Attributes
+NAME=PHY_LAYER_PAYLOAD
+NAME=SEGMENT_ID
+NAME=SOURCE_ID
+NAME=APP_LAYER_PAYLOAD
+NAME=NEXT_HOP_IP
+STATUS=ENABLE
+Packet trace parsing end....
+Event trace parsing start...
+STATUS=DISABLE
+Event trace parsing end....
+PCAP parsing start...
+NAME=ALL_NETWORK_PACKETS
+STATUS=LOG
+NAME=DISPATCHED_TO_EMULATOR
+STATUS=LOG
+NAME=REINJECTED_FROM_EMULATOR
+STATUS=LOG
+NAME=NOT_DISPATCHED_TO_EMULATOR
+STATUS=LOG
+PCAP parsing end....
+Config file parser end...
+

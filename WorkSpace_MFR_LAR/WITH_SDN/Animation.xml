@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<NETSIM_ANIMATION>
+ <!--NETSIM_ANIMATION-->
+ <MENU NAME="IP Table" isNewScreen="false">
+  <MENU NAME="SINK" isNewScreen="true" FileName="Animation_SINK.txt" Type="table"/>
+  <MENU NAME="SENSOR_2" isNewScreen="true" FileName="Animation_SENSOR_2.txt" Type="table"/>
+  <MENU NAME="SENSOR_3" isNewScreen="true" FileName="Animation_SENSOR_3.txt" Type="table"/>
+  <MENU NAME="SENSOR_4" isNewScreen="true" FileName="Animation_SENSOR_4.txt" Type="table"/>
+  <MENU NAME="SENSOR_5" isNewScreen="true" FileName="Animation_SENSOR_5.txt" Type="table"/>
+  <MENU NAME="SENSOR_6" isNewScreen="true" FileName="Animation_SENSOR_6.txt" Type="table"/>
+  <MENU NAME="SENSOR_7" isNewScreen="true" FileName="Animation_SENSOR_7.txt" Type="table"/>
+  <MENU NAME="SENSOR_8" isNewScreen="true" FileName="Animation_SENSOR_8.txt" Type="table"/>
+  <MENU NAME="SENSOR_9" isNewScreen="true" FileName="Animation_SENSOR_9.txt" Type="table"/>
+  <MENU NAME="SENSOR_10" isNewScreen="true" FileName="Animation_SENSOR_10.txt" Type="table"/>
+  <MENU NAME="SENSOR_11" isNewScreen="true" FileName="Animation_SENSOR_11.txt" Type="table"/>
+  <MENU NAME="SENSOR_12" isNewScreen="true" FileName="Animation_SENSOR_12.txt" Type="table"/>
+  <MENU NAME="SENSOR_13" isNewScreen="true" FileName="Animation_SENSOR_13.txt" Type="table"/>
+ </MENU>
+ <MENU NAME="Battery Power" isNewScreen="false">
+  <MENU NAME="SENSOR_2_BatteryPower" isNewScreen="false" FileName="Animation_SENSOR_2_BatteryPower.txt" Type="battery"/>
+  <MENU NAME="SENSOR_3_BatteryPower" isNewScreen="false" FileName="Animation_SENSOR_3_BatteryPower.txt" Type="battery"/>
+  <MENU NAME="SENSOR_4_BatteryPower" isNewScreen="false" FileName="Animation_SENSOR_4_BatteryPower.txt" Type="battery"/>
+  <MENU NAME="SENSOR_5_BatteryPower" isNewScreen="false" FileName="Animation_SENSOR_5_BatteryPower.txt" Type="battery"/>
+  <MENU NAME="SENSOR_6_BatteryPower" isNewScreen="false" FileName="Animation_SENSOR_6_BatteryPower.txt" Type="battery"/>
+  <MENU NAME="SENSOR_7_BatteryPower" isNewScreen="false" FileName="Animation_SENSOR_7_BatteryPower.txt" Type="battery"/>
+  <MENU NAME="SENSOR_8_BatteryPower" isNewScreen="false" FileName="Animation_SENSOR_8_BatteryPower.txt" Type="battery"/>
+  <MENU NAME="SENSOR_9_BatteryPower" isNewScreen="false" FileName="Animation_SENSOR_9_BatteryPower.txt" Type="battery"/>
+  <MENU NAME="SENSOR_10_BatteryPower" isNewScreen="false" FileName="Animation_SENSOR_10_BatteryPower.txt" Type="battery"/>
+  <MENU NAME="SENSOR_11_BatteryPower" isNewScreen="false" FileName="Animation_SENSOR_11_BatteryPower.txt" Type="battery"/>
+  <MENU NAME="SENSOR_12_BatteryPower" isNewScreen="false" FileName="Animation_SENSOR_12_BatteryPower.txt" Type="battery"/>
+  <MENU NAME="SENSOR_13_BatteryPower" isNewScreen="false" FileName="Animation_SENSOR_13_BatteryPower.txt" Type="battery"/>
+ </MENU>
+ <MENU NAME="Node Movement" isNewScreen="false" FileName="Animation_Node_Movement.txt" Type="generic"/>
+ <MENU NAME="Transmit_packet" isNewScreen="false" FileName="Animation_Transmit_packet.txt" Type="generic"/>
+</NETSIM_ANIMATION>
